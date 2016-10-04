@@ -4,7 +4,13 @@ Use your QWERTY keyboard as a MIDI controller.
 
 ![MIDI KeyBro - MIDI Keyboard](preview.png "MIDI KeyBro - MIDI Keyboard")
 
+[Download App](https://github.com/sksmatt/MIDI-KeyBro/releases)
+
 ## Usage
+
+### Download / Build
+
+Download the latest build from the link above (or scroll down for notes on how to build yourself) unzip and place **KeyBro.app** on `~/Applications`.
 
 ### Enable Virtual MIDI Bus
 
