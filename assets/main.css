@@ -1,0 +1,63 @@
+* { margin:0; padding:0; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color:#363f47;
+  background: #f6f6f6;
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+  font-smoothing:antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+|--------------------------------------------------------------------------
+| KEYBOARD
+|--------------------------------------------------------------------------
+*/
+
+#keyboard {
+    width: 890px;
+    margin:0 auto;
+    clear:both;
+    height:324px;
+    position: relative;
+    cursor: pointer;
+}
+
+.key {
+    width:50px;
+    height:100%;
+    float:left;
+    text-indent: -9999px;
+    background:white;
+    margin-right:10px;
+    box-shadow:0 2px 3px rgba(0,0,0,0.3);
+}
+
+.key:last-child {
+    margin-right: 0;
+}
+
+.key:active,.key.active {
+    background:brown;
+}
+
+.sharp {
+    background:black;
+    width: 35px;
+    position: relative;
+    margin-left:-20px;
+    margin-right: -20px;
+    height:59%;
+    z-index: 999;
+    border:1px solid black;
+    border-top:none;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "KeyBro",
+  "version": "1.0.0",
+  "description": "KeyBro - MIDI Keyboard",
+  "devDependencies": {
+    "electron-packager": "8.1.0",
+    "electron-prebuilt": "^0.30.2",
+    "midi": "^0.9.3"
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager . KeyBro --platform=darwin --arch=x64 --icon=Icon.icns --overwrite | open .",
+    "start": "electron ."
+  }
+}
